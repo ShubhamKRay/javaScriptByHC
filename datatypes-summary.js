@@ -22,7 +22,7 @@ console.log(id === anotherId);
 
 const heros = ["shaktiman", "naagraj", "doga"];
 let myObj = {
-  name: "hitesh",
+  name: "shubham",
   age: 22,
 };
 
@@ -30,6 +30,7 @@ const myFunction = function () {
   console.log("Hello world");
 };
 
-console.log(typeof anotherId);
+// console.log(typeof anotherId);
+// console.log(typeof myFunction);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
