@@ -2,12 +2,12 @@
 // Stack(primitive) and Heap(Non-primitive) Memory
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-// let myYoutubename = "shubhkipathsala";
-// let anothername = myYoutubename;
-// anothername = "CodeWithShubham";
+let myYoutubename = "shubhkipathsala";
+let anothername = myYoutubename;
+anothername = "CodeWithShubham";
 
-// console.log(myYoutubename);
-// console.log(anothername);
+console.log(myYoutubename);
+console.log(anothername);
 
 let userOne = {
   email: "shubham@example.com",
