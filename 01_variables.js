@@ -4,7 +4,7 @@ var accountPassword = "12345";
 accountCity = "Noida";
 let accountState;
 
-// accountId = 2 // not allowed
+//  accountId = 2 // not allowed beacuse const variable cannot be reassign
 
 accountEmail = "ab@cd.com";
 accountPassword = "21212121";
