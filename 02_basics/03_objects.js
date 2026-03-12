@@ -16,7 +16,7 @@ const JsUser = {    // yaha JsUser ek object hai, isko hum object literal kehte 
   location: "Noida",            // yaha location ek string hai, isliye usko directly likh sakte hain
   email: "shubham@google.com",   // yaha email ek string hai, isliye usko directly likh sakte hain
   isLoggedIn: false,              // yaha isLoggedIn ek boolean hai, isliye usko directly likh sakte hain
-  lastLoginDays: ["Monday", "Saturday"],  // yaha lastLoginDays ek array hai, isliye usko directly likh sakte hain
+  lastLoginDays: ["Monday", "Saturday"], // yaha lastLoginDays ek array hai, isliye usko directly likh sakte hain
 };                                          
 
 console.log(JsUser.email)  //! Dot Notation object ke andar ke value ko access karne ke liye hum dot notation ka use karte hain, yaha JsUser.email se hum email ki value ko access kar rahe hain

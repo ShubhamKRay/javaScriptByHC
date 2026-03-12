@@ -10,7 +10,7 @@ tinderUser.isLoggedIn = false;
 // console.log(tinderUser);
 
 
-//! Nested Object -> Object ke andar object
+//! Nested Object -> Object ke andar object 
 const regularUser = {
   email: "some@gmail.com",
   fullname: {
