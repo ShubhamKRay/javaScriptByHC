@@ -54,4 +54,42 @@ function loginUserMessage(username = "Satyarth"){
     return `${username} just logged in`;
 }
 // console.log(loginUserMessage("Satyarth"));
-console.log(loginUserMessage());
+// console.log(loginUserMessage());
+
+
+
+
+                          //! rest operator
+// function calculateCartPrice(...num1){
+function calculateCartPrice(val1, val2, ...num1){
+    return num1
+}
+// console.log(calculateCartPrice(200,400,500,2000));
+
+
+
+const user = {
+    username: "Satyarth",
+    price: 2000,
+    product: "Iphone 14 Pro Max"
+}
+
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.username} and price is ${anyObject.price} and product is ${anyObject.product}`);
+   
+}
+// handleObject(user);
+handleObject({
+    username: "Satyarth",
+    price: 2000,
+    product: "Iphone 14 Pro Max"
+})
+
+
+const myNewArray = [200, 400, 500, 2000];
+function returnSecondValue(getArray){
+    return getArray[1];
+}
+// console.log(returnSecondValue(myNewArray));
+
+console.log(returnSecondValue([100, 300, 500, 700]));
