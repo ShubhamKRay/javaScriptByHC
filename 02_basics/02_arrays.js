@@ -7,7 +7,7 @@ const dc_heros = ["superman", "flash", "batman"]; //! yaha humne ek aur array ba
 // console.log(marvel_heros[3][1]);//! yaha kya ho raha hai? -> marvel_heros ke 3rd index pe dc_heros array hai, aur uske 1st index pe flash hai.
 
 // const allHeros = marvel_heros.concat(dc_heros) //! concat method se hum do arrays ko merge kar sakte hai, aur ye ek new array return karta hai, original arrays ko change nahi karta.
-// console.log(allHeros);
+// console.log(allHeros); 
 
 const all_new_heros = [...marvel_heros, ...dc_heros]; //! spread operator se bhi hum do arrays ko merge kar sakte hai, aur ye bhi ek new array return karta hai, original arrays ko change nahi karta.
 

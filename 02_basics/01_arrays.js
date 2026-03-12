@@ -6,7 +6,7 @@
 // Arrays can be used to store a list of items, such as numbers, strings, or even objects. They are useful for organizing and manipulating data in a structured way. Arrays can be accessed using their index, which starts at 0 for the first element. They also have various methods that allow you to add, remove, and manipulate elements within the array. Overall, arrays are a powerful and versatile data structure in JavaScript that can help you manage and work with collections of data effectively.
 
 
-//! Creating an array
+//! Creating an array 
 
  const myArr = [0, 1, 2, 3, 4, 5]; 
 const myHeros = ["shaktiman", "naagraj"];
