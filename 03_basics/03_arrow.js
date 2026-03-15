@@ -35,7 +35,7 @@ const shubh = () => {
   let username = "Shubham";
   console.log(this);
 };
-// shubh();
+// shubh(); // Arrow functions me this ka value uss scope se aata hai jaha function define hua hai, na ki jaha se call hua hai. Arrow functions me this ka value lexical hota hai, yani ki uss scope se aata hai jaha function define hua hai. Is case me, shubh function global scope me define hua hai, isliye this ka value global object (window in browsers) hoga.
 
 
 
